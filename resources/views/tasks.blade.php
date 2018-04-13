@@ -23,6 +23,7 @@
                             <div class="col-sm-6">
                                 <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
                             </div>
+                            <br/>
                             <label for="Champ-nom" class="col-sm-3 control-label">Nom</label>
                             <div class="col-sm-6">
                                 <input type="text" name="Nom" id="Champ-nom" class="form-control"/>
