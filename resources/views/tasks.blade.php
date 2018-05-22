@@ -50,7 +50,7 @@
 	    <input type="text" name="identifiant" id="identifiant">
 	  </div>
 
-	  <br/>
+	  <br/><br/>
 	  <label for="motDePasse" class="col-sm-3 control-label">Mot de passe</label>
 	  <div class="col-sm-6">
 	    <input type="password" name="motDePasse" id="motDePasse">
