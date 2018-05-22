@@ -10,7 +10,7 @@
 
                 <div class="panel-body">
                     <!-- Display Validation Errors -->
-                    @include('common.errors')
+                    @include('common.errors')x
 
                     <!-- New Task Form -->
                     <form action="{{ url('task')}}" method="POST" class="form-horizontal">
@@ -26,7 +26,7 @@
                             <br/>
                             <label for="Champ-nom" class="col-sm-3 control-label">Nom</label>
                             <div class="col-sm-6">
-                                <input type="text" name="Nom" id="Champ-nom" class="form-control"/>
+                                <input type="text" name="Nom" id="Champ-nom" class="form-horizontal"/>
                             </div>
                         </div>
 
