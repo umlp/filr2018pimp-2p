@@ -1,6 +1,3 @@
-@extends('layouts.app')
-
-@section('content')
 <div class="window">
     <!-- style -->
     <!-- image : changer height en pourcentage -->
@@ -180,4 +177,3 @@
 
     </div>
   </div>
-@endsection
