@@ -110,7 +110,7 @@
         </div>
         <div class="information">
           <div class="logoContainer">
-            <img src="./logoFacebook.jpg" alt="Logo Facebook" class="logo" />
+            <img src="/resources/views/logoFacebook.jpg" alt="Logo Facebook" class="logo" />
           </div>
 
           <div class="userData">
@@ -142,7 +142,7 @@
         </div>
         <div class="information">
           <div class="logoContainer">
-            <img src="./logoTwitter.png" alt="Logo Twitter" class="logo" />
+            <img src="/resources/views/logoTwitter.png" alt="Logo Twitter" class="logo" />
           </div>
           <div class="userData">
 
