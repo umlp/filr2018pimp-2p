@@ -17,11 +17,13 @@
 
           <!-- Task Name -->
           <div class="form-group">
+	  <div class="row">
             <label for="task-name" class="col-sm-3 control-label">Task</label>
 
             <div class="col-sm-6">
               <input type="text" name="name" id="task-name" class="form-control" value="{{ old('task') }}">
             </div>
+	    </div>
             <label for="Champ-nom" class="col-sm-3 control-label">Nom</label>
             <div class="col-sm-6">
               <input type="text" name="Nom" id="Champ-nom" class="form-control"/>
