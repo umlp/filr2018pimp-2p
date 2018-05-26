@@ -15,7 +15,7 @@
 							<div class="col-xs-5"> Identifiant : </div>
 							<div class="col-xs-7"> unmail@exemple.com </div>
 						</div>
-						<div style="flex:1;>
+						<div style="flex:1;">
 							<div class="col-xs-5"> Mot de Passe </div>
 							<div class="col-xs-7"> ********* </div>
 						</div>
