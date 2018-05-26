@@ -2,17 +2,19 @@
 
 @section('content')
 	<div class="container">
-		<div style="background-color:red;"> 
-			<p> titre 1 </p>
-			<p> Premier block </p> 
+		<div class="row" style="background-color:red;"> 
+			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
+			<div class="col-xs-6" style="background-color:grey;"> col-xs-6 </div>
+			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
 		</div>
 		
-		<div style="background-color:green;">
-			<p> titre 2 </p>
-			<p> Deuxieme block </p>
+		<div class="row" style="background-color:green;">
+			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
+			<div class="col-xs-6" style="background-color:grey;"> col-xs-6 </div>
+			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
 		</div>
 		
-		<div style="background-color:blue;"> 
+		<div class="row" style="background-color:blue;"> 
 			<p> titre 3 </p>
 			<p> Troisieme block </p> 
 		</div>
