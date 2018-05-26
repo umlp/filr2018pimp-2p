@@ -2,19 +2,28 @@
 
 @section('content')
 	<div class="container">
-		<div class="row" style="background-color:red;"> 
-			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
-			<div class="col-xs-6" style="background-color:grey;"> col-xs-6 </div>
-			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
+		<div class="row">
+			<div>
+				<div class="row">
+					<div class="col-xs-4" style="background-color:grey;"> 
+						Labels
+					</div>
+
+					<div class="col-xs-8" style="background-color:grey;"> 
+						Field
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-6"> 
+						Buttons
+					</div>
+				</div>
+			</div>
 		</div>
 		
-		<div class="row" style="background-color:green;">
-			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
-			<div class="col-xs-6" style="background-color:grey;"> col-xs-6 </div>
-			<div class="col-xs-3" style="background-color:grey;"> col-xs-3 </div>
-		</div>
 		
-		<div class="row" style="background-color:blue;"> 
+		<div class="row"> 
 			<p> titre 3 </p>
 			<p> Troisieme block </p> 
 		</div>
