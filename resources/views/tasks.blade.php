@@ -139,14 +139,14 @@
 					</div>
 						
 					<div class="col-xs-3 colonne">
-						<div class="buttonContainer">
-            						<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
-          					</div>
+
 					</div>
 				</div>
 					
 				<div class="row" style="flex:1;">
-					
+					<div class="buttonContainer">
+						<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
+					</div>
 				</div>
 			</form>
 		</div>
