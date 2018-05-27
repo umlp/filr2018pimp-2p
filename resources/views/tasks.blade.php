@@ -22,6 +22,7 @@
 		.information {
 			display: flex;
 			flex-direction: row;
+			min-width:350px;
 		}
 		
 		.dataLabel {
@@ -29,6 +30,7 @@
 			display: block;
 			font-weight: bold;
 			padding-left: 20px;
+			min-width:150px;
 		}
 		
 		.data {
@@ -37,7 +39,7 @@
 		
 		.logo {
 			margin: 10px;
-			width : auto;
+			width : 60%;
 		}
 		
 		.subcontainer {
@@ -45,6 +47,7 @@
 			margin-bottom: 10px;
 			border-radius: 14px 14px 10px 10px;
 			border: 2px solid grey;
+			min-width: 750px;
 		}
 		
 		.applicationTitle {
@@ -62,7 +65,7 @@
 			</div>
 				
 			<div class="information">
-				<div class="col-xs-3"> 
+				<div class="col-xs-3" style="text-align:center;"> 
 				   	<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png" alt="Logo Facebook" class="logo" />
 				</div>
 				
