@@ -29,18 +29,15 @@
 			display: block;
 			font-weight: bold;
 			padding-left: 20px;
-			width: 30%;
 		}
 		
 		.data {
 			display: block;
-			width: 50%;
 		}
 		
 		.logo {
 			margin: 10px;
-			max-width: 75%;
-			max-height: 75%;
+			width : auto;
 		}
 		
 		.subcontainer {
@@ -70,18 +67,33 @@
 				</div>
 				
 				<div class="col-xs-3">
-					<span class="dataLabel"> Identifiant : </span>
-					<span class="dataLabel"> Mot de passe : </span>
+					<div class="row>
+						<span class="dataLabel"> Identifiant : </span>
+					</div>
+					
+					<div class="row>
+						<span class="dataLabel"> Mot de passe : </span>
+					</div>
 				</div>
 				
 				<div class="col-xs-3">
-					<span class="data"> unautremail@exemple.fr </span>
-					<span class="data"> *********** </span>
+					<div class="row>
+						<span class="data"> unautremail@exemple.fr </span>
+					</div>
+					
+					<div class="row>
+						<span class="data"> *********** </span>
+					</div>
 				</div>
 				
 				<div class="col-xs-3">
-					<a href="#" id="emailUpdate" style="color:grey;"> modifier </a>
-					<a href="#" id="passwordUpdate" style="color:grey;"> modifier </a>
+					<div class="row>
+						<a href="#" id="emailUpdate" style="color:grey;"> modifier </a>
+					</div>
+					
+					<div class="row>
+						<a href="#" id="passwordUpdate" style="color:grey;"> modifier </a>
+					</div>
 				</div>
 			</div>
 		</div>
