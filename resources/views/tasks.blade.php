@@ -70,7 +70,7 @@
 				</div>
 				
 				<div class="col-xs-9">
-					<div class="row>
+					<div class="row">
 						<div class="col-xs-3" style="display:flex; flex-direction:column; justify-content:space-around;">
 							<div class="row">
 								<div class="dataLabel"> Identifiant : </div>
@@ -101,6 +101,11 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				
+				<div class="switch">
+					<input type="checkbox">
+					<span class="switchLabel">Afficher mot de passe.</span>
 				</div>
 			</div>
 		</div>
