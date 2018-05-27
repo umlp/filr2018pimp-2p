@@ -103,9 +103,11 @@
 					</div>
 				</div>
 				
-				<div class="switch">
-					<input type="checkbox">
-					<span class="switchLabel">Afficher mot de passe.</span>
+				<div class="row">
+					<div class="switch">
+						<input type="checkbox">
+						<span class="switchLabel">Afficher mot de passe.</span>
+					</div>
 				</div>
 			</div>
 		</div>
