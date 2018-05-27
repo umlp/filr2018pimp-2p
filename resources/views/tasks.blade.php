@@ -16,8 +16,6 @@
 			padding: 10px;
 			padding-left: 20px;
 			padding-right: 20px;
-			
-			border-radius: 10px;
 		}
 		
 		.information {
@@ -64,7 +62,8 @@
 		}
 		
 		.subcontainer {
-			border-radius: 6px;
+			border-radius: 10px;
+			background-color: green;
 		}
 		
 	</style>
