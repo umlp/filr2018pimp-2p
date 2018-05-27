@@ -17,6 +17,44 @@
 			padding-left: 20px;
 			padding-right: 20px;
 		}
+		
+		.information {
+			display: flex;
+			flex-direction: row;
+		}
+		
+		.logoContainer {
+			flex: 0.75;
+		}
+		
+		.userData {
+			padding: 20px;
+			flex: 5;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.userDataLine {
+			padding: 5px;
+			display: flex;
+			flex-direction : row;
+			justify-content: space-between;
+		}
+		
+		.label {
+			display: block;
+			font-weight: bold;
+			padding-left: 20px;
+			width: 30%;
+		}
+		
+		.data {
+			display: block;
+			width: 50%;
+		}
+		
+		
 	</style>
 	
 	<div class="container">
@@ -25,7 +63,7 @@
 				<div class="row">
 				        <div class="blockHeader">
 						  <span class="title"> Facebook </span>
-						  <a href="#"> supprimer </a>
+						  <a href="#" style="color:white;"> supprimer </a>
 					</div>
 					
 					<div class="information">
