@@ -70,7 +70,7 @@
 				</div>
 				
 				<div class="col-xs-9" style="display:flex; flex-direction:column; justify-content:space-around;">
-					<div class="row" style="flex:3; display:flex; flex-direction:column; justify-content:space-around;">
+					<div class="row" style="flex:3;">
 						<div class="col-xs-4">
 							<div class="row">
 								<div class="dataLabel"> Identifiant : </div>
