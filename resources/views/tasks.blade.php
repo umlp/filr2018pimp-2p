@@ -57,9 +57,9 @@
 		}
 		
 		.logo {
-			padding: 10px;
-			max-width: 65%;
-			max-height: 65%;
+			margin: 10px;
+			max-width: 75%;
+			max-height: 75%;
 		}
 		
 		.subcontainer {
@@ -71,7 +71,7 @@
 		
 		.applicationTitle {
 			font-weight: bold;
-			font-size: 20px;
+			font-size: 16px;
 		}
 		
 	</style>
