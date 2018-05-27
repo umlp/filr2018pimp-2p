@@ -42,7 +42,8 @@
 			justify-content: space-between;
 		}
 		
-		.label {
+		.dataLabel {
+			color: black;
 			display: block;
 			font-weight: bold;
 			padding-left: 20px;
@@ -54,6 +55,11 @@
 			width: 50%;
 		}
 		
+		.logo {
+			padding: 10px;
+			max-width: 90%;
+			max-height: 90%;
+		}
 		
 	</style>
 	
@@ -73,15 +79,15 @@
 
 						  <div class="userData">
 							    <div class="userDataLine">
-								      <span class="label"> Identifiant : </span>
+								      <span class="dataLabel"> Identifiant : </span>
 								      <span class="data"> unmail@exemple.com </span>
-								      <a href="#"> modifier </a>
+								      <a href="#" style="color:grey;"> modifier </a>
 							    </div>
 
 							    <div class="userDataLine">
 								      <span class="label"> Mot de passe : </span>
 								      <span class="data"> ********** </span>
-								      <a href="#"> modifier </a>
+								      <a href="#" style="color:grey;"> modifier </a>
 							    </div>
 							    
 							    <div class="switch">
