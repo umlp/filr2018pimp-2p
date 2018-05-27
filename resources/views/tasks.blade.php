@@ -4,7 +4,7 @@
 
 	<style>
 		.row {
-			height: 120px;
+			
 		}
 		
 		.blockHeader {
@@ -16,6 +16,8 @@
 			padding: 10px;
 			padding-left: 20px;
 			padding-right: 20px;
+			
+			border-radius: 10px;
 		}
 		
 		.information {
