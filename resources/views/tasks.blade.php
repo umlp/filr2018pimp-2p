@@ -72,31 +72,31 @@
 				<div class="col-xs-9" style="display:flex; flex-direction:column; justify-content:space-around;">
 					<div class="row" style="flex:3;">
 						<div class="col-xs-4" style="display:flex; flex-direction:column; justify-content:space-around;">
-							<div class="row">
+							<div class="row" style="display:block">
 								<div class="dataLabel"> Identifiant : </div>
 							</div>
 
-							<div class="row">
+							<div class="row" style="display:block">
 								<div class="dataLabel"> Mot de passe : </div>
 							</div>
 						</div>
 
 						<div class="col-xs-4" style="display:flex; flex-direction:column; justify-content:space-around;">
-							<div class="row">
+							<div class="row" style="display:block">
 								<div class="data"> unautremail@exemple.fr </div>
 							</div>
 
-							<div class="row">
+							<div class="row" style="display:block">
 								<div class="data"> *********** </div>
 							</div>
 						</div>
 
 						<div class="col-xs-4" style="display:flex; flex-direction:column; justify-content:space-around;">
-							<div class="row">
+							<div class="row" style="display:block">
 								<a href="#" id="emailUpdate" style="color:grey;"> modifier </a>
 							</div>
 
-							<div class="row">
+							<div class="row" style="display:block">
 								<a href="#" id="passwordUpdate" style="color:grey;"> modifier </a>
 							</div>
 						</div>
