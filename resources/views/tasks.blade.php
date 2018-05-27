@@ -63,8 +63,13 @@
 		}
 		
 		.subcontainer {
-			border-radius: 10px;
-			border: 1 solid grey;
+			border-radius: 8px 8px 10px 10px;
+			border: 2px solid grey;
+		}
+		
+		.applicationTitle {
+			font-weight: bold;
+			font-size: 20px;
 		}
 		
 	</style>
@@ -72,7 +77,7 @@
 	<div class="container">
 		<div class="row subcontainer">
 		        <div class="blockHeader">
-				  <span class="title"> Facebook </span>
+				  <span class="applicationTitle"> Facebook </span>
 				  <a href="#" style="color:white;"> supprimer </a>
 			</div>
 				
