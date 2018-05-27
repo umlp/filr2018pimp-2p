@@ -58,11 +58,13 @@
 		
 		.logo {
 			padding: 10px;
-			max-width: 90%;
-			max-height: 90%;
+			max-width: 65%;
+			max-height: 65%;
 		}
 		
 		.subcontainer {
+			margin-top : 10px;
+			margin-bottom: 10px;
 			border-radius: 14px 14px 10px 10px;
 			border: 2px solid grey;
 		}
