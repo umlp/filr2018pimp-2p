@@ -25,7 +25,7 @@
 		}
 		
 		.logoContainer {
-			flex: 0.75;
+			flex: 1.25;
 		}
 		
 		.userData {
@@ -63,7 +63,7 @@
 		}
 		
 		.subcontainer {
-			border-radius: 8px 8px 10px 10px;
+			border-radius: 14px 14px 10px 10px;
 			border: 2px solid grey;
 		}
 		
@@ -96,6 +96,38 @@
 					    <div class="userDataLine">
 						      <span class="dataLabel"> Mot de passe : </span>
 						      <span class="data"> ********** </span>
+						      <a href="#" style="color:grey;"> modifier </a>
+					    </div>
+							    
+					    <div class="switch">
+						      <input type="checkbox">
+						      <span class="switchLabel">Afficher mot de passe.</span>
+					    </div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row subcontainer">
+		        <div class="blockHeader">
+				  <span class="applicationTitle"> Twitter </span>
+				  <a href="#" style="color:white;"> supprimer </a>
+			</div>
+				
+			<div class="information">
+				  <div class="logoContainer">
+				    	<img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png" alt="Logo Facebook" class="logo" />
+				  </div>
+
+				  <div class="userData">
+					    <div class="userDataLine">
+						      <span class="dataLabel"> Identifiant : </span>
+						      <span class="data"> unautremail@exemple.fr </span>
+						      <a href="#" style="color:grey;"> modifier </a>
+					    </div>
+
+					    <div class="userDataLine">
+						      <span class="dataLabel"> Mot de passe : </span>
+						      <span class="data"> motDePasseTwitter </span>
 						      <a href="#" style="color:grey;"> modifier </a>
 					    </div>
 							    
