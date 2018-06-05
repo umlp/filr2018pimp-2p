@@ -132,7 +132,8 @@
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Compte {{ $task->url }} </span>
-      <a href="#" style="color:white;"> supprimer </a>
+      <a href="{{ url('task/'.$task->id) }}" style="color:white;"> supprimer </a>
+      
     </div>
     <div class="information">
       <div class="col-sx-3" style="text-align:center;">
