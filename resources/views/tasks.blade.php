@@ -190,7 +190,7 @@
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Ajouter des identifiants </span>
     </div>
-    <form action="{{ url('task')}}" method="POST">
+    <form action="{{ url('task') }}" method="POST">
      {{ csrf_field() }}
       <div class="row" style="flex:3;">
 	<div class="col-xs-3 colonne"> 
