@@ -127,9 +127,9 @@
     </div>
   </div>
 
-   @if (count($tasks) > 0)
+ <!--  @if (count($tasks) > 0)
   @foreach ($tasks as $task)
-  <div class="row subcontainer">
+  <div class="row subcontainer">-->
     <!--<div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Compte </span>
       <a href="#" style="color:white;"> supprimer </a>
@@ -182,10 +182,10 @@
 	</div>
       </div>
    --> </div>
-  </div>
+<!--  </div>
 @endforeach
 @endif
-  
+-->  
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Ajouter des identifiants </span>
