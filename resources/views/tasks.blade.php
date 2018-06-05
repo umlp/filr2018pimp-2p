@@ -131,7 +131,7 @@
   @foreach ($tasks as $task)
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
-      <span class="applicationTitle"> Compte </span>
+      <span class="applicationTitle"> Compte {{ $task->url }} </span>
       <a href="#" style="color:white;"> supprimer </a>
     </div>
     <div class="information">
@@ -155,11 +155,11 @@
 
 	  <div class="col-xs-4 colonne">
 	    <div class="row">
-	      <div class="data">  </div>
+	      <div class="data"> {{ $task->name }} </div>
 	    </div>
 
 	    <div class="row">
-	      <div class="data"> {{ $task->name }} </div>
+	      <div class="data"> {{ $task->password }} </div>
 	    </div>
 	  </div>
 
