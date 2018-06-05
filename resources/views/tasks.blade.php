@@ -6,7 +6,7 @@
   .row {
   
   }
-  
+ 
   .blockHeader {
   color : white;
   background-color: grey;
@@ -48,6 +48,7 @@
   border-radius: 14px 14px 10px 10px;
   border: 2px solid grey;
   min-width: 750px;
+  justify-content : space-around;
   }
   
   .applicationTitle {
