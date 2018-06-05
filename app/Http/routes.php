@@ -28,6 +28,7 @@ Route::group(['middleware' => ['web']], function () {
      * Add New Task
      */
     Route::post('/task', function (Request $request) {
+        echo "salut";
         $validator = Validator::make($request->all(), [
             'url' => 'required|max:255',
             'name' => 'required|max:255',
