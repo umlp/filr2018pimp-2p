@@ -159,7 +159,7 @@
 	    </div>
 
 	    <div class="row">
-	      <div class="data">  </div>
+	      <div class="data"> {{ $task->name }} </div>
 	    </div>
 	  </div>
 
