@@ -28,11 +28,9 @@ Route::group(['middleware' => ['web']], function () {
      * Add New Task
      */
     Route::post('/task', function (Request $request) {
-        /*
+        
         $validator = Validator::make($request->all(), [
-            'url' => 'required|max:255',
             'name' => 'required|max:255',
-            'password' => 'required|max:255',            
         ]);
 
         if ($validator->fails()) {
@@ -42,11 +40,10 @@ Route::group(['middleware' => ['web']], function () {
         }
 
         $compte = new Task;
-        $compte->url = $request->url;
+       
         $compte->name = $request->name;
-        $compte->password = $request->password;
         $compte->save();
-*/
+
         return redirect('/');
     });
 
