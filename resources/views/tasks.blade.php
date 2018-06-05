@@ -49,6 +49,7 @@
   border: 2px solid grey;
   min-width: 750px;
   justify-content : space-around;
+  align-items : center;
   }
   
   .applicationTitle {
@@ -61,6 +62,7 @@
   display:flex; 
   flex-direction:column; 
   justify-content:space-around;
+  flex-wrap : no wrap;
   }
   
 </style>
@@ -128,9 +130,9 @@
     <form>
       <div class="row" style="flex:3;">
 	<div class="col-xs-3 colonne"> 
-	  <div class="row"><div class="dataLabel"> URL : </div><div class="column"><input type="text" name="url" id="urlInput" class="formInput" placeholder=""/></div></div>
-	  <div class="row"><div class="dataLabel"> Identifiant : </div><div class="column"><input type="text" name="id" id="idInput" class="formInput" placeholder="votremail@exemple.com"/></div></div>
-	  <div class="row"><div class="dataLabel"> Mot de passe : </div><div class="column"><input type="password" name="password" id="passwordInput" class="formInput" placeholder="Votre mot de passe"/></div></div>
+	  <div class="row"><div class="dataLabel"> URL : </div><div class="column input"><input type="text" name="url" id="urlInput" class="formInput" placeholder=""/></div></div>
+	  <div class="row"><div class="dataLabel"> Identifiant : </div><div class="column input"><input type="text" name="id" id="idInput" class="formInput" placeholder="votremail@exemple.com"/></div></div>
+	  <div class="row"><div class="dataLabel"> Mot de passe : </div><div class="column input"><input type="password" name="password" id="passwordInput" class="formInput" placeholder="Votre mot de passe"/></div></div>
 	</div>
 	
 	
