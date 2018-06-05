@@ -65,6 +65,9 @@
   flex-wrap : no wrap;
   }
   
+  .input {
+  align-self: center;
+  }
 </style>
 
 <div class="container">
