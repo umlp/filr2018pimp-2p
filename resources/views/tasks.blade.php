@@ -190,7 +190,7 @@
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Ajouter des identifiants </span>
     </div>
-    <form action="{{ url('tasks')}}" method="POST">
+    <form action="{{ url('task')}}" method="POST">
       <div class="row" style="flex:3;">
 	<div class="col-xs-3 colonne"> 
 	  <div class="row"><div class="dataLabel"> URL : </div><div class="column input" style="flex:2"><input type="text" name="url" id="urlInput" class="formInput" placeholder=""/></div></div>
