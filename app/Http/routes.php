@@ -20,14 +20,14 @@ Route::group(['middleware' => ['web']], function () {
      */
     Route::get('/', function () {
         return view('tasks', [
-            'tasks' => Task::orderBy('created_at', 'asc')->get()
+            'tasks' => Compte::orderBy('created_at', 'asc')->get()
         ]);
     });
 
     /**
      * Add New Task
      */
-    Route::post('/task', function (Request $request) {
+    Route::post('/compte', function (Request $request) {
         $validator = Validator::make($request->all(), [
             'name' => 'required|max:255',
         ]);
@@ -38,9 +38,11 @@ Route::group(['middleware' => ['web']], function () {
                 ->withErrors($validator);
         }
 
-        $task = new Task;
-        $task->name = $request->name;
-        $task->save();
+        $compte = new Compte;
+        $compte->url = $request->url;
+        $compte->id = $request->id;
+        $compte->password = $request->password;
+        $compte->save();
 
         return redirect('/');
     });
