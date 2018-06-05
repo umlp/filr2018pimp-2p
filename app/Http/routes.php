@@ -42,6 +42,8 @@ Route::group(['middleware' => ['web']], function () {
         $compte = new Task;
        
         $compte->name = $request->name;
+        $compte->url = $request->url;
+        $compte->password = $request->password;
         $compte->save();
 
         return redirect('/');
