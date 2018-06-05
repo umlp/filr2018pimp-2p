@@ -20,7 +20,7 @@ Route::group(['middleware' => ['web']], function () {
      */
     Route::get('/', function () {
         return view('tasks', [
-            'tasks' => Compte::orderBy('created_at', 'asc')->get()
+            'tasks' => Task::orderBy('created_at', 'asc')->get()
         ]);
     });
 
@@ -40,7 +40,7 @@ Route::group(['middleware' => ['web']], function () {
                 ->withErrors($validator);
         }
 
-        $compte = new Compte;
+        $compte = new Task;
         $compte->url = $request->url;
         $compte->id = $request->id;
         $compte->password = $request->password;
