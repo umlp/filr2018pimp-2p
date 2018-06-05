@@ -30,7 +30,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/tasks', function (Request $request) {
         $validator = Validator::make($request->all(), [
             'url' => 'required|max:255',
-            'id' => 'required|max:255',
+            'name' => 'required|max:255',
             'password' => 'required|max:255',            
         ]);
 
@@ -42,7 +42,7 @@ Route::group(['middleware' => ['web']], function () {
 
         $compte = new Task;
         $compte->url = $request->url;
-        $compte->id = $request->id;
+        $compte->name = $request->name;
         $compte->password = $request->password;
         $compte->save();
 
