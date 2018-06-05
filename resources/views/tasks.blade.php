@@ -122,15 +122,75 @@
 	  </div>
 	</div>
       </div>
+      
 
     </div>
   </div>
+
+   @if (count($tasks) > 0)
+  @foreach ($tasks as $task)
+  <div class="row subcontainer">
+    <div class="blockHeader" style="text-align:center;">
+      <span class="applicationTitle"> Compte {{ $task->url }}</span>
+      <a href="#" style="color:white;"> supprimer </a>
+    </div>
+    <div class="information">
+      <div class="col-sx-3" style="text-align:center;">
+        <img src="" label="Logo" class="logo"/>
+      </div>
+
+      <div class="col-xs-9" style="display:flex; flex-direction:column; justify-content:space-around;">
+
+	<div class="row" style="flex:3">
+
+	  <div class="col-xs-4 colonne">
+	    <div class="row">
+	      <div class="dataLabel"> Identifiant : </div>
+	    </div>
+
+	    <div class="row">
+	      <div class="dataLabel"> Mot de passe : </div>
+	    </div>
+	  </div>
+
+	  <div class="col-xs-4 colonne">
+	    <div class="row">
+	      <div class="data"> {{ $task->id }} </div>
+	    </div>
+
+	    <div class="row">
+	      <div class="data"> {{$task->password}} </div>
+	    </div>
+	  </div>
+
+	  <div class="col-xs-4 colonne">
+	    <div class="row">
+	      <a href="#" id="emailUpdate" style="color:grey;"> modifier </a>
+	    </div>
+
+	    <div class="row">
+	      <a href="#" id="passwordUpdate" style="color:grey;"> modifier </a>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="row" style="flex:1;">
+	  <div class="switch">
+	    <input type="checkbox">
+	    <span class="switchLabel"> Afficher mot de passe</span>
+	  </div>
+	</div>
+      </div>
+    </div>
+  </div>
+@endforeach
+@endif
   
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Ajouter des identifiants </span>
     </div>
-    <form>
+    <form action="{{ url('compte')}}" method="POST">
       <div class="row" style="flex:3;">
 	<div class="col-xs-3 colonne"> 
 	  <div class="row"><div class="dataLabel"> URL : </div><div class="column input" style="flex:2"><input type="text" name="url" id="urlInput" class="formInput" placeholder=""/></div></div>
