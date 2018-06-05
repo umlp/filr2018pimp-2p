@@ -132,7 +132,14 @@
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
       <span class="applicationTitle"> Compte {{ $task->url }} </span>
-      <a href="{{ url('task/'.$task->id) }}" style="color:white;"> supprimer </a>
+      <form action="{{ url('task/'.$task->id) }}" method="POST">
+                                                {{ csrf_field() }}
+                                                {{ method_field('DELETE') }}
+
+                                                <button type="submit" class="btn btn-danger">
+                                                    <i class="fa fa-btn fa-trash"></i>Delete
+	</button>
+	</form>
       
     </div>
     <div class="information">
