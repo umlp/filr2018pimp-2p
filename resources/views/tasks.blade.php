@@ -27,7 +27,7 @@
   
   .dataLabel {
   color: black;
-  display: block;
+  display: inline;
   font-weight: bold;
   padding-left: 20px;
   min-width:150px;
