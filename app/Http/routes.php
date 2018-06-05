@@ -29,7 +29,9 @@ Route::group(['middleware' => ['web']], function () {
      */
     Route::post('/tasks', function (Request $request) {
         $validator = Validator::make($request->all(), [
-            'name' => 'required|max:255',
+            'url' => 'required|max:255',
+            'id' => 'required|max:255',
+            'password' => 'required|max:255',            
         ]);
 
         if ($validator->fails()) {
