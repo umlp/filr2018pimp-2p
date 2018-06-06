@@ -70,6 +70,7 @@
   }
 </style>
 
+<!--
 <div class="container">
   <div class="row subcontainer">
     <div class="blockHeader">
@@ -126,6 +127,7 @@
 
     </div>
   </div>
+-->
 
 @if (count($tasks) > 0)
   @foreach ($tasks as $task)
@@ -137,14 +139,14 @@
                                                 {{ method_field('DELETE') }}
 
                                                 <button type="submit" class="btn btn-danger">
-                                                    <i class="fa fa-btn fa-trash"></i>Delete
+                                                    <i class="fa fa-btn fa-trash"></i>Supprimer
 	</button>
 	</form>
       
     </div>
     <div class="information">
       <div class="col-sx-3" style="text-align:center;">
-        <img src="" label="Logo" class="logo"/>
+        <img src="http://essexgreennj.com/img/stores/logo.png" label="Logo" class="logo"/>
       </div>
 
       <div class="col-xs-9" style="display:flex; flex-direction:column; justify-content:space-around;">
