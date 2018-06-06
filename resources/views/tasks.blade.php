@@ -205,10 +205,10 @@
       <div class="row">
 		<div class="col-xs-6 colonne">
 			<div class="row">
-				<div class="dataLabel"> Identifiant : </div>
+				<div class="dataLabel" style="flex:1; background-color:red;"> Identifiant : </div>
 			</div>
 			<div class="row">
-				<div class="dataLabel"> Mot de passe : </div>
+				<div class="dataLabel style="flex:1; background-color:red;""> Mot de passe : </div>
 			</div>
 		</div>
 		
