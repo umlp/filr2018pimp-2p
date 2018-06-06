@@ -194,6 +194,7 @@
 </div>
 @endforeach
 @endif
+</div>
 
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
@@ -223,4 +224,4 @@
   </div>
 </div>
 @endsection
-  </div>
+
