@@ -249,14 +249,10 @@
 			</div>
 		</div>
 		<div class="formButton">
-			<p> Le bouton </p>
+			<div class="buttonContainer">
+			  	<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
+			</div>
 		</div>
-      </div>
-      
-      <div class="row">
-	<div class="buttonContainer">
-	  <input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
-	</div>
       </div>
       
     </form>
