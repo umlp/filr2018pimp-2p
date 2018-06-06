@@ -248,17 +248,17 @@
       <div class="formContainer">
 		<div class="formData">
 			<div class="formLabels">
-				<div class="line"><div class="spacer"><div class="dataLabel"> URL : </div></div></div>
-				<div class="line"><div class="spacer"><div class="dataLabel"> Identifiant : </div></div></div>
-				<div class="line"><div class="spacer"><div class="dataLabel"> Mot de passe : </div></div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> URL : </div><div class="spacer"></div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> Identifiant : </div><div class="spacer"></div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> Mot de passe : </div><div class="spacer"></div></div>
 				
 				
 				
 			</div>
 			<div class="formFields">
-				<div class="line"><div class="spacer"><input type="text" name="url" id="urlInput" class="dataField" placeholder=""/></div></div>
-				<div class="line"><div class="spacer"><input type="text" name="name" id="idInput" class="dataField" placeholder="votremail@exemple.com"/></div></div>
-				<div class="line"><div class="spacer"><input type="password" name="password" id="passwordInput" class="dataField" placeholder="Votre mot de passe"/></div></div>
+				<div class="line"><div class="spacer"></div><input type="text" name="url" id="urlInput" class="dataField" placeholder=""/><div class="spacer"></div></div>
+				<div class="line"><div class="spacer"></div><input type="text" name="name" id="idInput" class="dataField" placeholder="votremail@exemple.com"/><div class="spacer"></div></div>
+				<div class="line"><div class="spacer"></div><input type="password" name="password" id="passwordInput" class="dataField" placeholder="Votre mot de passe"/><div class="spacer"></div></div>
 			</div>
 		</div>
 		<div class="formButton">
