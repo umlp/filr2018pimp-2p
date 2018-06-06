@@ -201,8 +201,8 @@
     </div>
     <form action="{{ url('task')}}" method="POST">
      {{ csrf_field() }}
+      
       <div class="row">
-	<div class="col-xs-12 colonne"> 
 		<div class="col-xs-6 colonne">
 			<div class="row">
 				<div class="dataLabel"> Identifiant : </div>
@@ -220,14 +220,14 @@
 				<div class="data"> *********** </div>
 			</div>
 		</div>
-	</div>
       </div>
       
-      <div class="row" style="flex:1;">
+      <div class="row">
 	<div class="buttonContainer">
 	  <input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
 	</div>
       </div>
+      
     </form>
   </div>
 </div>
