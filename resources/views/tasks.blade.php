@@ -27,7 +27,7 @@
   
   .dataLabel {
   color: black;
-  display: flex;
+  display: inline-block;
   font-weight: bold;
   flex:3;
   }
@@ -39,7 +39,7 @@
   
   .dataField {
   color: black;
-  display: flex;
+  display: inline-block;
   font-weight: bold;
   flex:3;
   }
