@@ -247,9 +247,9 @@
       <div class="formContainer">
 		<div class="formData">
 			<div class="formLabels">
-				<div class="line"><div class="spacer"></div><div class="dataLabel"> URL : </div><div class="spacer"></div></div>
-				<div class="line"><div class="spacer"></div><div class="dataLabel"> Identifiant : </div><div class="spacer"></div></div>
-				<div class="line"><div class="spacer"></div><div class="dataLabel"> Mot de passe : </div><div class="spacer"></div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> URL : </div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> Identifiant : </div></div>
+				<div class="line"><div class="spacer"></div><div class="dataLabel"> Mot de passe : </div></div>
 				
 				
 				
@@ -264,7 +264,7 @@
 			<div class="line">
 				<div class="spacer"></div>
 				<div class="buttonContainer">
-					<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
+					<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="btn" />
 				</div>
 				<div class="spacer"></div>
 			</div>
