@@ -264,7 +264,7 @@
 			<div class="line">
 				<div class="spacer"></div>
 				<div class="buttonContainer">
-					<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="btn" />
+					<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="btn btn-danger" />
 				</div>
 				<div class="spacer"></div>
 			</div>
