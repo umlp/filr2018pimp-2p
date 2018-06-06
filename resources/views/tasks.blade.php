@@ -70,8 +70,9 @@
   }
 </style>
 
-<!--
+
 <div class="container">
+<!--
   <div class="row subcontainer">
     <div class="blockHeader">
       <span class="applicationTitle"> Facebook </span>
@@ -122,12 +123,10 @@
 	    <span class="switchLabel">Afficher mot de passe.</span>
 	  </div>
 	</div>
-      </div>
-      
-
+      </div>      
     </div>
-  </div>
--->
+    -->
+
 
 @if (count($tasks) > 0)
   @foreach ($tasks as $task)
@@ -224,3 +223,4 @@
   </div>
 </div>
 @endsection
+  </div>
