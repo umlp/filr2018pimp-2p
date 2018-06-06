@@ -46,7 +46,6 @@
  
   .spacer{
   flex:1;
-  background-color:green;
   }
   
   .data {
@@ -262,8 +261,12 @@
 			</div>
 		</div>
 		<div class="formButton">
-			<div class="buttonContainer">
-			  	<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
+			<div class="line">
+				<div class="spacer"></div>
+				<div class="buttonContainer">
+					<input type="submit" name="monSubmit" id="submit" value="Ajouter" class="addButton" />
+				</div>
+				<div class="spacer"></div>
 			</div>
 		</div>
       </div>
