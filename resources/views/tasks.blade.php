@@ -27,18 +27,21 @@
   
   .dataLabel {
   color: black;
-  display: inline;
+  display: flex;
   font-weight: bold;
-  padding-left: 20px;
-  min-width:150px;
+  flex:3;
+  }
+  
+  .spacer{
+  display: flex;
+  flex: 1;
   }
   
   .dataField {
   color: black;
-  display: inline;
+  display: flex;
   font-weight: bold;
-  padding-left: 20px;
-  min-width:150px;
+  flex:3;
   }
   
   .data {
@@ -80,7 +83,7 @@
   
   .formData {
   flex:3;
-  diplay: flex;
+  display: flex;
   flex-direction:row;
   }
   
@@ -101,6 +104,7 @@
   .formButton {
   flex:1;
   }
+ 
   
 </style>
 
@@ -239,14 +243,14 @@
       <div class="formContainer">
 		<div class="formData">
 			<div class="formLabels">
-				<div class="dataLabel"> URL : </div>
-				<div class="dataLabel"> Identifiant : </div>
-				<div class="dataLabel"> Mot de passe : </div>
+				<div class="spacer"> </div><div class="dataLabel"> URL : </div><div class="spacer"> </div>
+				<div class="spacer"> </div><div class="dataLabel"> Identifiant : </div><div class="spacer"> </div>
+				<div class="spacer"> </div><div class="dataLabel"> Mot de passe : </div><div class="spacer"> </div>
 			</div>
 			<div class="formFields">
-				<input type="text" name="url" id="urlInput" class="dataField" placeholder=""/>
-				<input type="text" name="name" id="idInput" class="dataField" placeholder="votremail@exemple.com"/>
-				<input type="password" name="password" id="passwordInput" class="dataField" placeholder="Votre mot de passe"/>
+				<div class="spacer"> </div><input type="text" name="url" id="urlInput" class="dataField" placeholder=""/><div class="spacer"> </div>
+				<div class="spacer"> </div><input type="text" name="name" id="idInput" class="dataField" placeholder="votremail@exemple.com"/><div class="spacer"> </div>
+				<div class="spacer"> </div><input type="password" name="password" id="passwordInput" class="dataField" placeholder="Votre mot de passe"/><div class="spacer"> </div>
 			</div>
 		</div>
 		<div class="formButton">
