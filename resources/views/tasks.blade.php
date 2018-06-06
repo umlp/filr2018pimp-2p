@@ -194,7 +194,6 @@
 </div>
 @endforeach
 @endif
-</div>
 
   <div class="row subcontainer">
     <div class="blockHeader" style="text-align:center;">
@@ -202,16 +201,25 @@
     </div>
     <form action="{{ url('task')}}" method="POST">
      {{ csrf_field() }}
-      <div class="row" style="flex:3;">
-	<div class="col-xs-3 colonne"> 
-	  <div class="row"><div class="dataLabel"> URL : </div><div class="column input" style="flex:2"><input type="text" name="url" id="urlInput" class="formInput" placeholder=""/></div></div>
-	  <div class="row"><div class="dataLabel"> Identifiant : </div><div class="column input" style="flex:2"><input type="text" name="name" id="idInput" class="formInput" placeholder="votremail@exemple.com"/></div></div>
-	  <div class="row"><div class="dataLabel"> Mot de passe : </div><div class="column input" style="flex:2"><input type="password" name="password" id="passwordInput" class="formInput" placeholder="Votre mot de passe"/></div></div>
-	</div>
-	
-	
-	<div class="col-xs-3 colonne">
-
+      <div class="row">
+	<div class="col-xs-12 colonne"> 
+		<div class="col-xs-6 colonne">
+			<div class="row">
+				<div class="dataLabel"> Identifiant : </div>
+			</div>
+			<div class="row">
+				<div class="dataLabel"> Mot de passe : </div>
+			</div>
+		</div>
+		
+		<div class="col-xs-6 colonne">
+			<div class="row">
+				<div class="data"> unautremail@exemple.fr </div>
+			</div>
+			<div class="row">
+				<div class="data"> *********** </div>
+			</div>
+		</div>
 	</div>
       </div>
       
@@ -222,6 +230,8 @@
       </div>
     </form>
   </div>
+</div>
+
 </div>
 @endsection
 
