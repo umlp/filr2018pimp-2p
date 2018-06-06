@@ -33,6 +33,14 @@
   min-width:150px;
   }
   
+  .dataField {
+  color: black;
+  display: inline;
+  font-weight: bold;
+  padding-left: 20px;
+  min-width:150px;
+  }
+  
   .data {
   display: block;
   }
@@ -65,9 +73,35 @@
   flex-wrap : no wrap;
   }
   
-  .input {
-  align-self: center;
+  .formContainer {
+  display: flex;
+  flex-direction:column;
   }
+  
+  .formData {
+  flex:3;
+  diplay: flex;
+  flex-direction:row;
+  }
+  
+  .formLabels{
+  display:flex;
+  flex: 1;
+  flex-direction : column;
+  justify-content: space-between;
+  }
+  
+  .formFields{
+  display:flex;
+  flex: 1;
+  flex-direction : column;
+  justify-content: space-between;
+  }
+  
+  .formButton {
+  flex:1;
+  }
+  
 </style>
 
 
@@ -202,23 +236,21 @@
     <form action="{{ url('task')}}" method="POST">
      {{ csrf_field() }}
       
-      <div class="row">
-		<div class="col-xs-6 colonne">
-			<div class="row">
-				<div class="dataLabel" style="flex:1; background-color:red;"> Identifiant : </div>
+      <div class="formContainer">
+		<div class="formData">
+			<div class="formLabels">
+				<div class="dataLabel"> URL : </div>
+				<div class="dataLabel"> Identifiant : </div>
+				<div class="dataLabel"> Mot de passe : </div>
 			</div>
-			<div class="row">
-				<div class="dataLabel style="flex:1; background-color:red;""> Mot de passe : </div>
+			<div class="formFields">
+				<input type="text" name="url" id="urlInput" class="dataField" placeholder=""/>
+				<input type="text" name="name" id="idInput" class="dataField" placeholder="votremail@exemple.com"/>
+				<input type="password" name="password" id="passwordInput" class="dataField" placeholder="Votre mot de passe"/>
 			</div>
 		</div>
-		
-		<div class="col-xs-6 colonne">
-			<div class="row">
-				<div class="data"> unautremail@exemple.fr </div>
-			</div>
-			<div class="row">
-				<div class="data"> *********** </div>
-			</div>
+		<div class="formButton">
+			<p> Le bouton </p>
 		</div>
       </div>
       
