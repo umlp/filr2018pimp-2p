@@ -27,16 +27,14 @@
   
   .dataLabel {
   color: black;
-  display: inline-block;
+  display: block;
   font-weight: bold;
-  flex:3;
   }
   
   .dataField {
   color: black;
-  display: inline-block;
+  display: block;
   font-weight: bold;
-  flex:3;
   }
   
   .data {
