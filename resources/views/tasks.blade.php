@@ -42,6 +42,7 @@
   .line {
   display:flex;
   flex-direction:row; 
+  style="padding:6px;"
   }
  
   .spacer{
@@ -107,6 +108,10 @@
   
   .formButton {
   flex:1;
+  }
+  
+  .buttonContainer {
+  style="padding:10px;"
   }
  
   
